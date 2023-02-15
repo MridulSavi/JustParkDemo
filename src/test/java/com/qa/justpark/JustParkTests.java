@@ -36,7 +36,7 @@ public class JustParkTests extends JustParkBase {
 		homepage.EnterValueOnSearchTextBox("London");
 		homepage.SelectStartDate();
 		String justpaarktitle= homepage.GetTitle();
-		Assert.assertEquals(justpaarktitle, "London Parking | Guaranteed Spaces");
+		Assert.assertEquals(justpaarktitle, "London Parkings | Guaranteed Spaces");
 	}
 	
 	
